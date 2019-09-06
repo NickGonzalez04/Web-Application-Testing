@@ -9,7 +9,7 @@ export const addHit = currentScore => {
 export const addBallScore  = currentBallCount =>{
     return currentBallCount + 1;
 }
-// Function for Chaning the Inning Number 
+// Function for Changing the Inning Number 
 export const addInning = currentInning =>{
     return currentInning + 1;
 }
