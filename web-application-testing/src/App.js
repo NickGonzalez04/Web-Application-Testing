@@ -39,7 +39,7 @@ function App() {
 
   return (
     <div className="App">
-        <h1 className="Scoreboard-Header">Home Of The Panthers</h1>
+        <h1 className="Scoreboard-Header">Yankee Stadium</h1>
             <Display 
                 homeHitScore={homeHitScore}
                 awayHitScore={awayHitScore}

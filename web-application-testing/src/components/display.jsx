@@ -16,7 +16,7 @@ const Display = ({
       <div className="Score_Board">
         <div className="Scores">
            <section className="Home">
-            <h1 className="home_hit">Home</h1>
+            <h1 className="home_hit">Yankees</h1>
             <div className="home_score">{homeHitScore}</div>
             </section>
             <section className="Inning">
@@ -29,12 +29,18 @@ const Display = ({
             </section>
         </div>
           <div className="at-bat-tracker">
+          <section className="Ball">
              <h3>Ball</h3>
              <div className="Ball_Count">{ballCount}</div>
+             </section>
+             <section className="Strike">
              <h3>Strike</h3>
              <div className="Strike_Count">{strikeCount}</div>
+             </section>
+             <section className="Out">
              <h3>Outs</h3>
              <div className="Out_Count">{outCount}</div>
+             </section>
             
         </div>
         </div>

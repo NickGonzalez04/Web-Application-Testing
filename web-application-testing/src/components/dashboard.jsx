@@ -57,7 +57,7 @@ const DashBoard = ({
                     <button onClick={()=>setInning(addInning(inning))}>New Inning</button>
                </div>
          <div className="away-buttons">
-            <button onClick={() => setAwayHitScore(awayHitScore + 1)}>
+            <button onClick={() => setAwayHitScore(addBallScore(awayHitScore))}>
                Away Score
             </button>
                <button onClick={() => setBallCount(addBallScore(ballCount))}>

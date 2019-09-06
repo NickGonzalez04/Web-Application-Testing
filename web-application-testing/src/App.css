@@ -20,12 +20,21 @@ h1{
 
 .at-bat-tracker{
  display: flex;
- justify-content: space-around;
+ justify-content: center;
+margin: 5%;
 }
+.Ball,
+.Strike,
+.Out{
+display: flex;
+flex-direction: column;
+margin: 3%;
+align-items: center;
 
+}
 .button-section{
   display:flex;
-  
+  justify-content: center;
 }
 
 .home-buttons{
