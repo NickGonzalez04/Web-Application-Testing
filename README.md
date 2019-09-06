@@ -45,14 +45,14 @@ Follow these steps for completing your project.
 
 After a set of interviews with the potential users of the solution, we gathered the following information about the desired functionality. Not all the information provided by our clients is relevant to the design of the solution, but it's included to help understand the requirements.
 
-Your job is to design and build a React application that includes at least two components: `Display` and `Dashboard`. **For the MVP you only need to record information about a player's _"at bat"_**.
+- [X] Your job is to design and build a React application that includes at least two components: `Display` and `Dashboard`. **For the MVP you only need to record information about a player's _"at bat"_**.
 
 The specifications are listed below.
 
 ### Count Rules
 
-- balls and strikes reset to 0 when a player reaches 3 strikes or 4 balls.
-- balls and strikes reset to 0 when a `hit` is recorded.
+- [] balls and strikes reset to 0 when a player reaches 3 strikes or 4 balls.
+- [] balls and strikes reset to 0 when a `hit` is recorded.
 - a `foul` increases strikes up to 2. With no strikes, a foul makes it 1 strike. With 1 strike, a foul makes it 2 strikes. With two strikes a foul has no effect, count stays at 2 strikes.
 
 ### Display
