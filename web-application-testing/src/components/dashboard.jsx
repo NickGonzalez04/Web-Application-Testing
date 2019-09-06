@@ -4,6 +4,7 @@ import React from 'react';
 
 export const addHit = currentScore => {
     return currentScore + 1;
+    
 }
 //Function for adding ball count
 export const addBallScore  = currentBallCount =>{
