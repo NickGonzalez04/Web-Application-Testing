@@ -1,0 +1,48 @@
+h1{
+  text-align: center;
+}
+
+
+.Scores{
+  display: flex;
+  justify-content: space-around;
+}
+
+.Home,
+.Away,
+.Inning{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  place-items: center;
+}
+
+
+.at-bat-tracker{
+ display: flex;
+ justify-content: center;
+margin: 5%;
+}
+.Ball,
+.Strike,
+.Out{
+display: flex;
+flex-direction: column;
+margin: 3%;
+align-items: center;
+
+}
+.button-section{
+  display:flex;
+  justify-content: center;
+}
+
+.home-buttons{
+   display: flex; 
+   flex-direction: column;
+}
+
+.away-buttons{
+  display: flex; 
+   flex-direction: column;
+}
